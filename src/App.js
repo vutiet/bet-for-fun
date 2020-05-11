@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Team from "./team.js"
+import Fixtures from "./fixtures.js"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Team name="Hawks" />
-        <Team name="Eagles" />
+        <Fixtures />
       </div>
     );
   }
