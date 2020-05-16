@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './fixture.module.css'
+import styles from './Fixture.module.css';
 
 class Fixture extends Component {
   constructor(props) {
