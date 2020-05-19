@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './Fixture.module.css';
+import './Fixture.css';
 
 class Fixture extends Component {
   constructor(props) {
@@ -16,12 +16,12 @@ class Fixture extends Component {
 
   render() {
     return (
-      <div className={styles.row}>
-        <h2 className={styles.name}>{this.props.homeTeamName}</h2>
-        <h2 className={styles.score}>{this.props.homeTeamScore}</h2>
-        <h2 className={styles.score}> - </h2>
-        <h2 className={styles.score}>{this.props.awayTeamScore}</h2>
-        <h2 className={styles.name}>{this.props.awayTeamName}</h2>
+      <div className="row">
+        <h2 className="name">{this.props.homeTeamName}</h2>
+        <h2 className="score">{this.props.homeTeamScore}</h2>
+        <h2 className="score"> - </h2>
+        <h2 className="score">{this.props.awayTeamScore}</h2>
+        <h2 className="name">{this.props.awayTeamName}</h2>
       </div>
     );  
   }

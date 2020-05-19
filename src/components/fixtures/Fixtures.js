@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fixture from './Fixture';
-import styles from './Fixture.module.css';
+import './Fixture.css';
 
 class Fixtures extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class Fixtures extends Component {
     return (
       <div>
         <h1>Today's Matches</h1>
-        <div className={styles.section}>
+        <div className="section">
           <Fixture homeTeamName="Hawks" homeTeamScore="0" awayTeamName="Giants" awayTeamScore="0"/>
           <Fixture homeTeamName="Hawks" homeTeamScore="0" awayTeamName="Giants" awayTeamScore="0"/>
           <Fixture homeTeamName="Hawks" homeTeamScore="0" awayTeamName="Giants" awayTeamScore="0"/>
